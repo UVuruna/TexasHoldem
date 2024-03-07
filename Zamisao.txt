@@ -1,0 +1,17 @@
+1. napraviti logiku bez vizuelizacije (tkintera)
+    - rangirati karte od 27 do AA
+2. napraviti MySQL bazu podataka
+    - puniti bazu podataka sa simulacijama partija:
+        - 2-9 igraca
+        - u sve 4 situacije (preflop,flop,turn,river)
+
+3. racunati sansu da se dobije 'nesto' za sve kombinacije karata (27-AA):
+    - par,2par,triling,strejt,boja,ful,poker,strejtfles,rojalfles (9)
+
+4. racunati sansu da se pobedi ruka za sve kombinacije karata (27-AA)
+    - za sve brojeve igraca
+    - racunati poziciju (bolji/losiji/najlosiji...1/2/3/4...) za svaku od 4 faze igre
+        - ovo ce odredjivati trenutak kada se igra jako (reze) sa odredjenim kartama
+
+
+>>> probati napraviti vestacku inteligenciju koja ce igrati medjusobno i razviti strategiju rajzovanja
